@@ -1,0 +1,451 @@
+/*=====================*/
+/* BASIC SETUP */
+/*=====================*/
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Oswald", sans-serif;
+  font-weight: 500;
+  text-transform: normal;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+img,
+i {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+a:hover,
+a:focus {
+  text-decoration: none;
+  color: #ff5200;
+}
+
+button {
+  outline: none;
+  cursor: pointer;
+}
+
+/*=====================*/
+/* Header */
+/*=====================*/
+header {
+  background: #e1e5e8;
+  width: 100%;
+
+  margin-top: 85px;
+}
+.hdr-hw {
+  height: 100vh;
+}
+.myname {
+  font-size: 110px;
+  color: transparent;
+  -webkit-text-stroke: 1px #044a91;
+  background: url(img/back.png);
+  -webkit-background-clip: text;
+  background-position: 0 0;
+  animation: back 20s linear infinite;
+}
+@keyframes back {
+  100% {
+    background-position: 2000px 0;
+  }
+}
+.btn-outline-warning: hover {
+  color: #fff;
+}
+
+.top-barmain {
+  background: #f5f5f5 !important;
+  color: #002d5b !important;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+h1 {
+  color: #002d5b;
+}
+
+.header-hero p {
+  color: #464d65;
+}
+
+.band-logo {
+  max-width: 100%;
+  width: 10%;
+}
+.nav-list-wrapper ul li a {
+  font-size: 18px;
+}
+
+.-image-logo {
+  bottom: 0;
+}
+
+.-image-logo a:first-child {
+  background: #3b5998;
+  opacity: 0;
+  transition: 0.9s;
+}
+
+.-image-logo a:nth-child(2) {
+  background: #00acee;
+  opacity: 0;
+  transition: 0.7s;
+}
+
+.-image-logo a:nth-child(3) {
+  background: #db4a39;
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.-image-logo a:last-child {
+  background: #0e76a8;
+  opacity: 0;
+  transition: 0.3s;
+}
+
+.-image-logo a {
+  float: left;
+  border-radius: 100%;
+  background: #ff5200;
+  color: #fff;
+  text-align: center;
+  margin-right: 8px;
+  transition: 0.1s;
+}
+
+.-image-logo a:hover {
+  background: white;
+  color: black;
+  transform: rotate(360deg);
+}
+
+.hero-wrapper-right:hover .-image-logo a {
+  opacity: 1;
+}
+
+#service {
+  background: #fffcfc;
+}
+
+.box-1:hover .services-btn button {
+  background: #fff !important;
+  color: #000 !important;
+}
+
+.box-1:hover {
+  background: #ff5200;
+  color: #fff;
+}
+
+.html-icon i {
+  color: #ec5b53;
+  background: #ec5b534f;
+}
+
+.box-1:hover .html-icon i {
+  color: #ec5b53;
+  background: #fff;
+}
+
+.portfolio-section {
+  background: #fd7e1412;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  clear: both;
+}
+
+.portfolio-link img {
+  position: relative;
+  overflow: hidden;
+}
+
+.img-relative {
+  position: absolute;
+  background-image: linear-gradient(to top, #292626, #0000);
+  bottom: 0;
+  color: #fff;
+  transition: 0.3s;
+  overflow: hidden;
+  margin-bottom: 20px;
+  padding-top: 25px;
+}
+
+.img-relative h5 {
+  font-size: 18px;
+  padding: 15px 0px;
+}
+
+.food-x {
+  border-bottom: 1px solid white;
+}
+
+.portfolio-link:hover .img-relative {
+  padding: 60px 10px;
+}
+
+.img-relative-lmr {
+  text-decoration: none;
+  color: white;
+  display: block;
+  transform: translateX(-220px);
+  transition: 0.2s;
+  transition-delay: 0.3s;
+  transition-timing-function: cubic-bezier(0.42, 0, 0.19, 1.38);
+}
+
+.portfolio-link:hover .img-relative a {
+  transform: translateX(0px);
+  background: #ff5200;
+  padding: 15px 0;
+}
+
+.img-relative-lmr:hover {
+  background: #fff !important;
+  color: #ff5200 !important;
+}
+
+#skills-section {
+  background: linear-gradient(#ebebebe3, #ebebebc7), url(img/skill-bg.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+  padding: 50px 0;
+}
+
+svg.htmll circle {
+  stroke: #dc143c;
+}
+
+svg.csss circle {
+  stroke: #2f4f4f;
+}
+
+svg.bootstrapp circle {
+  stroke: #ff1493;
+}
+
+svg.jqueryy circle {
+  stroke: #ffd700;
+}
+
+svg.javascriptt circle {
+  stroke: #a2ed56;
+}
+
+svg.reactt circle {
+  stroke: #00008b;
+}
+/*==============
+Contacts Section
+===============*/
+#contacts {
+  background: #c8c5c5;
+  height: auto;
+  width: 100%;
+  overflow: hidden;
+}
+#contacts .card {
+  border: none;
+  border-radius: none;
+}
+.card-img-overlay i {
+  font-size: 30px;
+}
+.portfolio-img {
+  width: 100%;
+  height: 300px;
+}
+
+.portfolio-section .mixitup-control-active {
+  background: #fff;
+}
+form .btn {
+  font-size: 18px;
+  color: #fff;
+  font-weight: bold;
+}
+/*=====================
+    SOCIAL CONTACT SECTION
+====================*/
+#social-contact-section {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+#social-contact-section h2 {
+  color: #505877;
+}
+
+.contact-mail {
+  background: #f3e8ec;
+  cursor: pointer;
+  border-right: 2px solid#8c2242;
+}
+
+.contact-mail:hover {
+  background: #dbc6cc;
+}
+
+.contact-mail span {
+  color: #737f94;
+}
+
+.contact-mail i {
+  color: #8c2242;
+}
+
+.contact-mail div h3 {
+  color: #8c2242;
+}
+
+.contact-github {
+  background: #f7f6f6;
+  cursor: pointer;
+  border-right: 2px solid#929292;
+}
+
+.contact-github:hover {
+  background: #e5e5e5;
+}
+
+.contact-github span {
+  color: #737f94;
+}
+
+.contact-github i {
+  color: #929292;
+}
+
+.contact-github div h3 {
+  color: #929292;
+}
+
+.contact-discord {
+  background: #eff1fa;
+  cursor: pointer;
+  border-right: 2px solid#6E83CB;
+}
+
+.contact-discord:hover {
+  background: #e4e8f5;
+}
+
+.contact-discord span {
+  color: #737f94;
+}
+
+.contact-discord i {
+  color: #6e83cb;
+}
+
+.contact-discord div h3 {
+  color: #6e83cb;
+}
+
+.contact-twitter {
+  background: #deecfa;
+  cursor: pointer;
+  border-right: 2px solid#0071DB;
+}
+
+.contact-twitter:hover {
+  background: #cfe4f8;
+}
+
+.contact-twitter span {
+  color: #737f94;
+}
+
+.contact-twitter i {
+  color: #0071db;
+}
+
+.contact-twitter div h3 {
+  color: #0071db;
+}
+
+.contact-linkedin {
+  background: #ddedfc;
+  cursor: pointer;
+  border-right: 2px solid#0071DB;
+}
+
+.contact-linkedin:hover {
+  background: #cfe4f8;
+}
+
+.contact-linkedin span {
+  color: #737f94;
+}
+
+.contact-linkedin i {
+  color: #0071db;
+}
+
+.contact-linkedin div h3 {
+  color: #0071db;
+}
+
+.contact-facebook {
+  background: #deebf8;
+  cursor: pointer;
+  border-right: 2px solid#0071DB;
+}
+
+.contact-facebook:hover {
+  background: #cfe4f8;
+}
+
+.contact-facebook span {
+  color: #737f94;
+}
+
+.contact-facebook i {
+  color: #0071db;
+}
+
+.contact-facebook div h3 {
+  color: #0071db;
+}
+
+footer {
+  background: #080827;
+}

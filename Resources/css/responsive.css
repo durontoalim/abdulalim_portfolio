@@ -1,0 +1,133 @@
+@media only screen and (max-width: 991px) {
+  .-image-logo {
+    bottom: 30px;
+    left: 25%;
+  }
+
+  .band-logo {
+    max-width: 100%;
+    width: 20%;
+  }
+  .myname {
+    font-size: 70px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .-image-logo a i {
+    font-size: 30px;
+  }
+
+  .-image-logo {
+    bottom: 75px;
+    left: 70px;
+  }
+
+  .img-relative-lmr {
+    transform: translateX(-320px);
+  }
+
+  .portfolio-img {
+    height: 400px;
+  }
+
+  .-image-logo a {
+    padding: 20px !important;
+  }
+
+  .carousel-inner {
+    height: 30vh;
+  }
+
+  .carousel-item {
+    height: 30vh;
+  }
+
+  .carousel-item img {
+    height: 100%;
+    overflow: hidden;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .header-btn button {
+    margin-top: 25px;
+  }
+
+  .band-logo {
+    max-width: 100%;
+    width: 25%;
+  }
+
+  .-image-logo {
+    bottom: 24%;
+    left: 22%;
+  }
+
+  .-image-logo a {
+    padding: 14px !important;
+  }
+
+  .portfolio-img {
+    height: 330px;
+  }
+
+  .contacts-btn {
+    padding-bottom: 70px;
+  }
+  .social a {
+    padding-right: 10px;
+  }
+
+  .email,
+  .Phone {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 520px) {
+  .myname {
+    font-size: 60px;
+  }
+  .-image-logo {
+    bottom: 30%;
+    left: 20%;
+  }
+
+  .-image-logo a i {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .band-logo {
+    max-width: 100%;
+    width: 30%;
+  }
+
+  .-image-logo {
+    bottom: 30%;
+    left: 20%;
+  }
+
+  .-image-logo a {
+    padding: 10px 0;
+  }
+  #contacts .card .card-img-overlay {
+    padding-top: 0px !important;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .-image-logo {
+    bottom: 30%;
+    left: 18%;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .-image-logo {
+    bottom: 30%;
+    left: 13%;
+  }
+}

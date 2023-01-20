@@ -1,0 +1,103 @@
+section#skill-section {
+  width: 100%;
+  height: auto;
+}
+.skill {
+  width: 160px;
+  height: 160px;
+  position: relative;
+}
+.box_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.skill .outer {
+  height: 160px;
+  width: 160px;
+  border-radius: 50%;
+  padding: 20px;
+  box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15), -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
+}
+.skill .outer .inner {
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: inset 4px 4px 6px -1px rgba(0, 0, 0, 0.2), inset -4px -4px 6px -1px rgba(255, 255, 255, 0.7), -0.5px -0.5px 0px #fff, 0.5px 0.5px 0px rgba(0, 0, 0, 0.15),
+    0px 12px 10px -10px rgba(0, 0, 0, 0.05);
+}
+.skill .outer .inner #number {
+  font-weight: 600;
+  color: #555;
+}
+svg {
+  position: absolute;
+  top: 0;
+}
+.html-section svg circle {
+  fill: none;
+  stroke: url(#GradientColor);
+  stroke-width: 20px;
+  stroke-dasharray: 570;
+  stroke-dashoffset: 570;
+  -webkit-animation: anim 2s linear forwards;
+  animation: anim 2s linear forwards;
+}
+.css-section svg circle {
+  fill: none;
+  stroke: url(#GradientColor);
+  stroke-width: 20px;
+  stroke-dasharray: 540;
+  stroke-dashoffset: 540;
+  -webkit-animation: anim 2s linear forwards;
+  animation: anim 2s linear forwards;
+}
+.bootstrap-section svg circle {
+  fill: none;
+  stroke: url(#GradientColor);
+  stroke-width: 20px;
+  stroke-dasharray: 500;
+  stroke-dashoffset: 500;
+  -webkit-animation: anim 2s linear forwards;
+  animation: anim 2s linear forwards;
+}
+.jquery-section svg circle {
+  fill: none;
+  stroke: url(#GradientColor);
+  stroke-width: 20px;
+  stroke-dasharray: 400;
+  stroke-dashoffset: 400;
+  -webkit-animation: anim 2s linear forwards;
+  animation: anim 2s linear forwards;
+}
+.javascript-section svg circle {
+  fill: none;
+  stroke: url(#GradientColor);
+  stroke-width: 20px;
+  stroke-dasharray: 450;
+  stroke-dashoffset: 450;
+  -webkit-animation: anim 2s linear forwards;
+  animation: anim 2s linear forwards;
+}
+.react-section svg circle {
+  fill: none;
+  stroke: url(#GradientColor);
+  stroke-width: 20px;
+  stroke-dasharray: 350;
+  stroke-dashoffset: 350;
+  -webkit-animation: anim 2s linear forwards;
+  animation: anim 2s linear forwards;
+}
+@-webkit-keyframes anim {
+  100% {
+    stroke-dashoffset: 165;
+  }
+}
+@keyframes anim {
+  100% {
+    stroke-dashoffset: 165;
+  }
+}
